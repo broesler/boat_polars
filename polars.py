@@ -6,13 +6,14 @@
 #
 """
 Description: Plot polars and minimize time to travel for a given TWA/TWS.
+
+Get polars CSV from here: <https://jieter.github.io/orc-data/site/>
 """
 # =============================================================================
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import seaborn as sns
 
 from pathlib import Path
 from scipy.interpolate import interp1d
